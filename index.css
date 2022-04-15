@@ -19,9 +19,9 @@ body {
   min-width: max-content;
 }
 
-.text-main {
- padding-bottom: 100px ;
-}
+main {
+  padding-bottom: 100px ;
+ }
 
 .title {
   text-align: center;
@@ -50,19 +50,13 @@ img {
   border-radius:  50%;
 }
 
-footer {
-  position:fixed;
-  left:0px;
-  bottom:0px;
-  background-color: #7c735a;
-  height: 75px;
-  width:100%;
-  padding: 3px 15px;
-  display: flex;
-  align-items: baseline;
+
+.programma {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+  max-width: max-content;
 }
-
-
 
 .logo-image{
   margin-top: 15px;
@@ -70,31 +64,47 @@ footer {
   width: 3rem;
 }
 
-a{
-  background-color: #dfc98f;
-  padding: 2.5px;
-  color: #008CBA;
-  text-decoration: none;
-  border-radius: 10%;
-}
-
-a:hover {
+.istruttore {
+    background-color: rgb(223, 151, 17); 
+    color: #008CBA; 
+    padding: 10px 25px;
+    border: 2px solid #008CBA;
+    text-decoration: none;
+  }
   
+a:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+
+.fa-whatsapp {
+  font-size:48px;
+  color:#fff;
+  background-color: lightgreen;
 }
 
-.whatsapp, .instagram{
-  height: 50px;
-  padding: 0 15px;
-  margin-left: 20px;
-  border-radius: 25%;
-}
-
-.whatsapp {
-  background-color: #fff;
-}
-
-.instagram {
+.fa-instagram {
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  border-radius: 50%;
-  font-size: 20px;
+  font-size: 48px;
+  color:rgb(255, 255, 255);  
 } 
+
+.fa-whatsapp, .fa-instagram , .logo-image {
+  margin: 10px;
+  border-radius: 10px;
+  padding: 2px;
+}
+  
+
+footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    background-color: #7c735a;
+    height: 75px;
+    width:100%;
+    padding: 3px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
